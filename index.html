@@ -1,17 +1,107 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vlinders</title>
     <link rel="stylesheet" href="css/main.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }</script>
+    <title>Praktijk Minnemeers</title>
 </head>
-
 <body>
-<h1>Vlinders zijn de max</h1>
-<img src="images/Unknown.jpeg" alt="Mooie vlinder">
-<p>Hoe wijs is dat wel niet om die te vangen en er dan wat mee te babbelen!</p>
+    <div class="wrapper">
+        <header>
+            <div class="topnav" id="myTopnav">
+            <a href="#"><h1>Praktijk Minnemeers</h1></a>
+            <a href="aanbod.html">Aanbod</a>
+            <a href="team.html">Team</a>
+            <a href="praktisch.html">Praktisch</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+    <main>
+        <!-- betere foto -->
+        <img src="images/brug2.jpg" alt="Minnemeersbrug" width="100%">
+        <article>
+            <div class="titel-blok">
+                <h2>Aanbod</h2>
+            </div>
+            <!-- inhoud -->
+            <div class="blok-inhoud">
+            <p>Welkom bij Praktijk Minnemeers, <strong>een praktijk voor psychotherapie</strong>. </p>
+            <br>
+            <p>Wij bieden begeleidingen aan voor:
+                <br>
+                <ul>
+                    <li>kinderen</li>
+                    <li>jongeren</li>
+                    <li>volwassenen</li>
+                    <li>koppels</li>
+                </ul>
+            </p> 
+                <br>
+            <p>
+                Daarnaast is er de mogelijkheid tot supervisie of aanvraag tot vormingen. 
+            </p>
+            <br>
+            
+            <a href="aanbod.html">meer..</a>
+        </div>
+        </article>
+        <article>
+            <div class="titel-blok"><h2>Team</h2></div>
+            <!-- inhoud -->
+            <div class="fotos">
+                <a href="therapeuten/bie.html"><img src="images/thumbnails/bie-thumb.jpeg" alt="Bie Heyse" width="100px"></a>
+                <a href="therapeuten/ilse.html"><img src="images/thumbnails/ilse-thumb.jpeg" alt="Ilse Vanbrabant" width="100px"></a>
+                <a href="therapeuten/inse.html"><img src="images/thumbnails/inse-thumb.jpeg" alt="Inse Van Melkebeke" width="100px"></a>
+                <a href="therapeuten/nicolas.html"><img src="images/thumbnails/nicolas-thumb.jpeg" alt="Nicolas Neirynck" width="100px"></a>
+            </div>
+        </article>
+        <article>
+            <div class="titel-blok"><h2>Praktisch</h2></div>
+            <!-- inhoud -->
+            <div class="blok-inhoud">
+            <p>Ben je nog nooit naar een psycholoog geweest en weet je niet hoe er aan te beginnen? Heb je vragen over terugbetalingen? </p>
+                <br>
+                <p><a href="praktisch.html">Hier</a> vind je meer informatie</p>
+              
+               </div>
+        </article>
+        <article>
+            <div class="titel-blok"><h2>Contacteer ons</h2></div>
+            <!-- inhoud -->
+            <div class="blok-inhoud">
+            <p>Vragen gericht aan de therapeuten kan je best rechtstreeks stellen. Klik op hun foto of kijk in team om hun contactgegevens te vinden.
+                <br> Algemene vragen kan je stellen per mail: info@praktijkminnemeeers.be 
+                <br>
+                <br>
+                Meer info klik <a href="hier">hier</a>.</p>
+            </div>
+    </article>
+    </main>
+    <footer>
+        <div>Praktijk Minnemeers</div>
+        <!-- inhoud -->
+        <div>
+            <address>Huidevetterskaai 6 <br> 9000 Gent</address>
+            <br>
+            <p>info@praktijkminnemeers.be</p>
+        </div>
+    </footer>
+</div>
+    
 </body>
-
 </html>

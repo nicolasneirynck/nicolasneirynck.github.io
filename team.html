@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }</script>
+    <title>Team</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="topnav" id="myTopnav">
+            <a href="#"><h1>Praktijk Minnemeers</h1></a>
+            <a href="aanbod.html">Aanbod</a>
+            <a href="team.html">Team</a>
+            <a href="praktisch.html">Praktisch</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+    <main>
+        <!-- betere foto -->
+        <article>
+            <div class="titel-blok">
+                <h2>Team</h2>
+            </div>
+            <!-- inhoud -->
+            <section> 
+                <h3>Volwassenen</h3>
+             <div class="fotos-team"><a href="therapeuten/bie.html"><img src="images/thumbnails/bie-thumb.jpeg" alt="Bie Heyse" width="100px"></a>
+                <a href="therapeuten/ilse.html"><img src="images/thumbnails/ilse-thumb.jpeg" alt="Ilse Vanbrabant" width="100px"></a>
+                <a href="therapeuten/inse.html"><img src="images/thumbnails/inse-thumb.jpeg" alt="Inse Van Melkebeke" width="100px"></a>
+                <a href="therapeuten/nicolas.html"><img src="images/thumbnails/nicolas-thumb.jpeg" alt="Nicolas Neirynck" width="100px"></a></div>
+            </section>
+            <section>
+                <h3>Kinderen en jongeren</h3>
+             <div class="fotos-team">
+                <a href="therapeuten/inse.html"><img src="images/thumbnails/inse-thumb.jpeg" alt="Inse Van Melkebeke" width="100px"></a>
+            </div>
+            </section>
+            <section>
+                <h3>Koppels</h3>
+             <div class="fotos-team">
+                <a href="therapeuten/inse.html"><img src="images/thumbnails/inse-thumb.jpeg" alt="Inse Van Melkebeke" width="100px"></a>
+            </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div>Praktijk Minnemeers</div>
+        <!-- inhoud -->
+        <div>
+            Contact <br>
+            <address>Huidevetterskaai 6 <br> 9000 Gent</address>
+            <p>info@praktijkminnemeers.be</p>
+            <p>0476284974</p>
+        </div>
+    </footer>
+</div> 
+</body>
+</html>
